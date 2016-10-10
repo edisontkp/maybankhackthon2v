@@ -27,8 +27,8 @@
 			
       function initialize() {
         var mapOptions = {
-          center: new google.maps.LatLng(51.781436,-1.03363),
-          zoom: 8,
+          center: new google.maps.LatLng(3.848890, 107.974203),
+          zoom: 5,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
 		  mapTypeControl: false,
 		  disableDefaultUI: true,
@@ -52,7 +52,9 @@
 		Layer1.setMap(map);
 		};
 		
-		var Gmarkers = [];
+		var Gmarkers = [
+		
+		];
 		var infowindow = new google.maps.InfoWindow();
 
 		for (var i = 0; i < Points.length; i++) {  
